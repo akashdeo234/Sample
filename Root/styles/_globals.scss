@@ -1,0 +1,38 @@
+/*Gloabals starts*/
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+html,body{
+    scroll-behavior: smooth;
+}
+
+$primary-color : #fff;
+$secondary-color : rgb(13, 13, 114);
+$third-color : rgb(12, 11, 11);
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: $secondary-color;
+}
+section{
+    background-color:  rgb(212, 212, 212);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Gloabals ends*/

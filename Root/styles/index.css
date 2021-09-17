@@ -1,0 +1,434 @@
+/*Gloabals starts*/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  font-family: sans-serif;
+}
+
+html, body {
+  scroll-behavior: smooth;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #0d0d72;
+}
+
+section {
+  background-color: #d4d4d4;
+}
+
+/*Gloabals ends*/
+/*Gloabals starts*/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  font-family: sans-serif;
+}
+
+html, body {
+  scroll-behavior: smooth;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #0d0d72;
+}
+
+section {
+  background-color: #d4d4d4;
+}
+
+/*Gloabals ends*/
+/*Header starts*/
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+}
+
+.header .container {
+  width: 95%;
+  height: inherit;
+  margin: 0% auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .container .logo {
+  color: #0c0b0b;
+  font-size: 30px;
+  border: solid 2px black;
+  padding: 10px 20px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.header .container .logo:hover {
+  background-color: #0d0d72;
+  color: #fff;
+}
+
+.header .container .nav-links {
+  padding-left: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .container .nav-links a li {
+  margin: 0 10px;
+  padding: 0 10px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.header .container .nav-links a li:hover {
+  color: #0c0b0b;
+}
+
+.header .container .search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.header .container .search .search-icon {
+  position: absolute;
+  left: 25px;
+  width: 15px;
+  height: 15px;
+}
+
+.header .container .search .search-field {
+  width: 300px;
+  height: 38px;
+  padding-left: 70px;
+}
+
+/*Header ends*/
+.footer {
+  width: 100%;
+  height: 170px;
+  background-color: #fff;
+}
+
+.footer .container {
+  width: 95%;
+  height: inherit;
+  margin: 0% auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .container .logo {
+  color: #0c0b0b;
+  font-size: 30px;
+  border: solid 2px black;
+  padding: 10px 20px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.footer .container .logo:hover {
+  background-color: #0d0d72;
+  color: #fff;
+}
+
+.footer .container .nav-links {
+  padding-left: 230px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .container .nav-links a li {
+  margin: 0 10px;
+  padding: 0 10px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.footer .container .nav-links a li:hover {
+  color: #0c0b0b;
+}
+
+.footer .container .social-links {
+  padding-left: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .container .social-links a li {
+  margin: 0 10px;
+  padding: 0 10px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.footer .container .social-links img {
+  width: 25px;
+  height: 25px;
+  margin: 0 20px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.footer .container .social-links img:hover {
+  -webkit-transform: translateY(-15px);
+          transform: translateY(-15px);
+}
+
+/*hero sec starts*/
+.hero {
+  width: 100%;
+  height: 130vh;
+}
+
+.hero .container {
+  height: inherit;
+  width: 95%;
+  margin: 0% auto;
+}
+
+.hero .container .title {
+  padding: 100px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+}
+
+.hero .container .title h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.hero .container .title p {
+  font-size: 20px;
+}
+
+.hero .container .cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.hero .container .cards .card {
+  background-color: #0c0b0b;
+  color: #fff;
+  padding: 60px 40px;
+}
+
+.hero .container .cards .card h2 {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.hero .container .cards .card p {
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+
+.hero .container .cards .card .btn {
+  background-color: #0d0d72;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 12px;
+}
+
+.hero .container .view-more {
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  margin-top: 70px;
+  border: 3px solid #0d0d72;
+  border-radius: 25px;
+  color: #0d0d72;
+  font-size: 17px;
+  padding: 17px 80px;
+  text-align: center;
+}
+
+/*hero sec ends*/
+/*carousel sec starts*/
+.carousel-sec {
+  padding-top: 80px;
+  width: 100%;
+  height: 190vh;
+}
+
+.carousel-sec .container {
+  height: inherit;
+  width: 95%;
+  margin: 0% auto;
+}
+
+.carousel-sec .container .row {
+  padding-bottom: 90px;
+}
+
+.carousel-sec .container .title {
+  font-size: 35px;
+  margin-left: 25px;
+  color: #0d0d72;
+}
+
+.carousel-sec .container .swiper {
+  margin-top: 40px;
+  width: 1400px;
+  height: 300px;
+}
+
+.carousel-sec .container .swiper .card {
+  width: 35%;
+  background-color: #0c0b0b;
+  color: #fff;
+  padding: 60px 40px;
+}
+
+.carousel-sec .container .swiper .card h2 {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.carousel-sec .container .swiper .card p {
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+
+.carousel-sec .container .swiper .card .btn {
+  background-color: #0d0d72;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 12px;
+}
+
+.carousel-sec .container .swiper .swiper-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+}
+
+/*carousel sec ends*/
+/*Booking sec start*/
+.booking-sec {
+  padding: 80px 0;
+  width: 100%;
+  height: 50vh;
+}
+
+.booking-sec .container {
+  height: inherit;
+  width: 95%;
+  margin: 0% auto;
+}
+
+.booking-sec .container .title {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.booking-sec .container .input-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  gap: 30px;
+}
+
+.booking-sec .container .input-wrapper .input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.booking-sec .container .input-wrapper .input label {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.booking-sec .container .input-wrapper .input input {
+  width: 200px;
+  text-align: center;
+}
+
+.booking-sec .container .input-wrapper .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.booking-sec .container .input-wrapper .wrapper select {
+  width: 120px;
+  text-align: center;
+}
+
+/*Booking sec ends*/
+/*# sourceMappingURL=index.css.map */

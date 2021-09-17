@@ -1,0 +1,161 @@
+@import "./globals";
+@import "./header";
+@import "./footer";
+/*hero sec starts*/
+.hero {
+  width: 100%;
+  height: 130vh;
+  
+  .container {
+    height: inherit;
+    width: 95%;
+    margin: 0% auto;
+    .title {
+      padding: 100px 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 30px;
+      h1 {
+        font-size: 40px;
+        font-weight: bold;
+      }
+      p {
+        font-size: 20px;
+      }
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      gap: 20px;
+      .card {
+        background-color: $third-color;
+        color: $primary-color;
+        padding: 60px 40px;
+        h2 {
+          text-align: center;
+          padding-bottom: 15px;
+        }
+        p {
+          line-height: 25px;
+          margin-bottom: 25px;
+        }
+        .btn {
+          background-color: $secondary-color;
+          color: $primary-color;
+          padding: 10px 20px;
+          font-size: 12px;
+        }
+      }
+    }
+    .view-more {
+      display: inline-block;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      margin-top: 70px;
+      border: 3px solid $secondary-color;
+      border-radius: 25px;
+      color: $secondary-color;
+      font-size: 17px;
+      padding: 17px 80px;
+      text-align: center;
+    }
+  }
+}
+/*hero sec ends*/
+
+/*carousel sec starts*/
+.carousel-sec {
+  padding-top: 80px;
+  width: 100%;
+  height: 190vh;
+  .container {
+    height: inherit;
+    width: 95%;
+    margin: 0% auto;
+    .row{
+      padding-bottom: 90px;
+    }
+    .title {
+      font-size: 35px;
+      margin-left: 25px;
+      color: $secondary-color;
+    }
+    .swiper {
+      margin-top: 40px;
+      width: 1400px;
+      height: 300px;
+      .card {
+        width: 35%;
+        background-color: $third-color;
+        color: $primary-color;
+        padding: 60px 40px;
+        h2 {
+          text-align: center;
+          padding-bottom: 15px;
+        }
+        p {
+          line-height: 25px;
+          margin-bottom: 25px;
+        }
+        .btn {
+          background-color: $secondary-color;
+          color: $primary-color;
+          padding: 10px 20px;
+          font-size: 12px;
+        }
+      }
+      .swiper-slide {
+        display: flex;
+        gap: 15px;
+      }
+      
+    }
+  }
+}
+/*carousel sec ends*/
+
+/*Booking sec start*/
+.booking-sec{
+  padding: 80px 0;
+  width: 100%;
+  height: 50vh;
+  .container {
+    height: inherit;
+    width: 95%;
+    margin: 0% auto;
+    .title{
+      text-align: center;
+      margin-bottom: 80px;
+    }
+    .input-wrapper{
+      display: flex;
+      justify-content: space-evenly;
+      gap: 30px;
+      .input{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        label{
+          font-size: 20px;
+          margin-bottom: 15px;
+        }
+        input{
+          width: 200px;
+          text-align: center;
+        }
+      }
+      .wrapper{
+        display: flex;
+        select{
+          width: 120px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+/*Booking sec ends*/

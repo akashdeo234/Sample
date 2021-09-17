@@ -1,0 +1,57 @@
+@import "./globals";
+/*Header starts*/
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: $primary-color;
+  .container {
+    width: 95%;
+    height: inherit;
+    margin: 0% auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logo {
+      color: $third-color;
+      font-size: 30px;
+      border: solid 2px black;
+      padding: 10px 20px;
+      transition: 0.3s ease-in-out;
+    }
+    .logo:hover{
+        background-color: $secondary-color;
+        color: $primary-color;
+    }
+    .nav-links {
+    padding-left: 160px;
+      display: flex;
+      align-items: center;
+      a li {
+        margin: 0 10px;
+        padding: 0 10px;
+        transition: 0.3s ease-in-out;
+      }
+      a li:hover{
+          color: $third-color;
+      }
+    }
+    .search {
+      display: flex;
+      align-items: center;
+      position: relative;
+      .search-icon {
+        position: absolute;
+        left: 25px;
+        width: 15px;
+        height: 15px;
+      }
+      .search-field {
+          width: 300px;
+          height: 38px;
+          padding-left: 70px;
+
+      }
+    }
+  }
+}
+/*Header ends*/
